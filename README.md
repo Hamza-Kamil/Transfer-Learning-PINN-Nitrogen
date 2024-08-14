@@ -20,8 +20,8 @@ Modeling subsurface flow and transport phenomena is essential for addressing a w
 
 ## Key Points
 
-(a) For a detailed understanding of the numerical setup for each case, please refer to the accompanying research paper.
-(b) The PINNs solvers are implemented using the TensorFlow library.
+- (a) For a detailed understanding of the numerical setup for each case, please refer to the accompanying research paper.
+- (b) The PINNs solvers are implemented using the TensorFlow library.
 
 ## Getting Started
 
