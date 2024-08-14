@@ -21,14 +21,11 @@ Modeling subsurface flow and transport phenomena is essential for addressing a w
 ## Key Points
 
 (a) For a detailed understanding of the numerical setup for each case, please refer to the accompanying research paper.
-
 (b) The PINNs solvers are implemented using the TensorFlow library.
-
 
 ## Getting Started
 
 To use the code, follow these steps:
-
 1. Use Google Colab or set up the code on your local machine.
 2. Install the required libraries, including TensorFlow.
 3. Explore the code files to understand the implementation details.
@@ -36,40 +33,31 @@ To use the code, follow these steps:
 ## Note
 
 This repository is intended to serve as a resource for researchers and practitioners interested in advanced solvers for solving partial differential equations related to water flow and mulitple solute transport in unsaturated soils.
-
 Contributions and improvements are welcome. Feel free to submit pull requests or open issues for any questions or suggestions.
 
 ## Contact Information
 
 For inquiries, please reach out to:
-
 - **Hamza Kamil** (hamza.kamil@um6p.ma, hamza.kamil.1@ens.etsmtl.ca)
 
 ## Citation
 
 ```bibtex
-
 @article{KAMIL2024117276,
-
 title = {A transfer learning physics-informed deep learning framework for modeling multiple solute dynamics in unsaturated soils},
-
 journal = {Computer Methods in Applied Mechanics and Engineering},
-
 volume = {431},
-
 pages = {117276},
-
 year = {2024},
-
 issn = {0045-7825},
-
 doi = {https://doi.org/10.1016/j.cma.2024.117276},
-
 url = {https://www.sciencedirect.com/science/article/pii/S0045782524005322},
-
 author = {Hamza Kamil and Azzeddine Soulaïmani and Abdelaziz Beljadid},
-
 }
-
 ```
 
+## Framework Overview
+
+![TL-PINN Framework](tlpinn.png)
+
+This image illustrates the Transfer Learning Physics-Informed Neural Network (TL-PINN) framework used in our study. It provides a visual representation of how the transfer learning approach is applied to model multiple solute dynamics in unsaturated soils.
