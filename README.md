@@ -47,20 +47,29 @@ For inquiries, please reach out to:
 
 ## Citation
 
-If you find this work useful for your research, please consider citing the accompanying paper.
-
-Thank you for your interest in our research!
-
+```bibtex
 
 @article{KAMIL2024117276,
+
 title = {A transfer learning physics-informed deep learning framework for modeling multiple solute dynamics in unsaturated soils},
+
 journal = {Computer Methods in Applied Mechanics and Engineering},
+
 volume = {431},
+
 pages = {117276},
+
 year = {2024},
+
 issn = {0045-7825},
+
 doi = {https://doi.org/10.1016/j.cma.2024.117276},
+
 url = {https://www.sciencedirect.com/science/article/pii/S0045782524005322},
+
 author = {Hamza Kamil and Azzeddine Soulaïmani and Abdelaziz Beljadid},
+
 }
+
+```
 
