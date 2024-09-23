@@ -2,7 +2,8 @@
 ####### ################# ################# ################# ##########
 ####### ################# ................. ################# ##########
 
-# pip install deepxde
+# !!!! Ensure you install deepxde library: pip install deepxde
+# # #
 import tensorflow_probability as tfp
 import tensorflow as tf
 import deepxde as dde
@@ -21,10 +22,6 @@ np.random.seed(0) #  fixing NumPy's random generator
 
 #soil
 soil = [0., 1., 0., 1.] #[zmin, zmax, Tinitial, Tfinal]
-
-#collocation points sampling size 
-size = [10000,1000,1000, 1000] #nb of collocation points [res, ic, upbc, dwbc]
-
 
 # WRC: Water retention curve
 def theta_function(h, thetar, thetas, alpha, n, m):
@@ -72,7 +69,7 @@ def  get_collocations(soil, n):
     t =  np.random.uniform(soil[2], soil[3], n).reshape(-1, 1)
     return t, z
 
-n_res, n_ic, n_up, n_dw = 10000, 1000, 1000, 1000 # size
+n_res, n_ic, n_up, n_dw = 10000, 1000, 1000, 1000 # size of collocation points
 
 t_res, z_res = get_collocations(soil, n_res)
 t_ic, z_ic = get_collocations(list(np.append(soil[0:3],0)), n_ic)
@@ -129,8 +126,7 @@ z_pred, t_pred  =np.meshgrid(z,t)
 class water:
 
     def __init__(self, layers):
-       #nb of collocation points: size = [res, ic, upbc, dwbc]
-
+      
 
         self.weights_psi, self.biases_psi, self.A_psi = self.initialize_NN(layers)
 
