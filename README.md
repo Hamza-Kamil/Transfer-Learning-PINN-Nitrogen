@@ -14,7 +14,7 @@ Modeling subsurface flow and transport phenomena is essential for addressing a w
 
 ## Affiliation
 
-- **Mohammed VI Polytechnic University, Morocco** (a)
+- **University Mohammed VI Polytechnic, Morocco** (a)
 - **École de technologie supérieure, Canada** (b)
 - **University of Ottawa, Canada** (c)
 
@@ -32,7 +32,7 @@ To use the code, follow these steps:
 
 ## Note
 
-This repository is intended to serve as a resource for researchers and practitioners interested in advanced solvers for solving partial differential equations related to water flow and mulitple solute transport in unsaturated soils.
+This repository is intended to serve as a resource for researchers and practitioners interested in advanced algorithms for solving partial differential equations related to water flow and mulitple solute transport in unsaturated soils.
 Contributions and improvements are welcome. Feel free to submit pull requests or open issues for any questions or suggestions.
 
 ## Contact Information
