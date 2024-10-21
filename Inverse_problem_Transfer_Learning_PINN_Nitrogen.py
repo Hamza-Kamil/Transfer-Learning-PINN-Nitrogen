@@ -2,7 +2,6 @@
 ####### ################# ################# ################# ##########
 ####### ################# ................. ################# ##########
 
-import tensorflow_probability as tfp
 import tensorflow as tf
 import deepxde as dde
 import numpy as np
