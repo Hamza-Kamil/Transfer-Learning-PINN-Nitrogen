@@ -32,7 +32,7 @@ To use the code, follow these steps:
 
 ## Note
 
-This repository is intended to serve as a resource for researchers and practitioners interested in advanced algorithms for solving partial differential equations related to water flow and mulitple solute transport in unsaturated soils.
+This repository is intended to serve as an open source code for researchers and practitioners interested in deep learning algorithms for solving differential equations.
 Contributions and improvements are welcome. Feel free to submit pull requests or open issues for any questions or suggestions.
 
 ## Contact Information
