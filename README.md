@@ -93,7 +93,7 @@ For a detailed explanation of the numerical setup, physical parameters, and boun
 
 ## Framework Overview
 
-![TL-PINN Framework](tlpinn.png)
+![TL-PINN Framework](Model_Chart.png)
 
 This image illustrates the Transfer Learning Physics-Informed Neural Network (TL-PINN) framework used in the study. It provides a visual representation of how transfer learning is applied to model multiple solute dynamics in unsaturated soils.
 
