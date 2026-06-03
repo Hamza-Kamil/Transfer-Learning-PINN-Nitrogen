@@ -18,7 +18,7 @@ To rigorously validate our approach, we conduct one-dimensional numerical experi
 
 This repository contains a new organization of the code released in 2024.
 
-At this stage, the original implementation is kept in the `legacy/` folder to ensure reproducibility of the results reported in the paper. A cleaner and more modular package-style version of the code is under development and will be added in a future update.
+At this stage, the original implementation is kept in the `codes/` folder to ensure reproducibility of the results reported in the paper. A cleaner and more modular package-style version of the code is under development and will be added in a future update.
 
 ## Repository Organization
 
