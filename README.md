@@ -120,7 +120,7 @@ author = {Hamza Kamil and Azzeddine Soulaïmani and Abdelaziz Beljadid},
 For inquiries, please reach out to:
 
 * **Hamza Kamil**
-  [hamza.kamil@um6p.ma](mailto:hamza.kamil@um6p.ma)
+  [hkamil@bcamath.org](mailto:hkamil@bcamath.org)
   [hamza.kamil.1@ens.etsmtl.ca](mailto:hamza.kamil.1@ens.etsmtl.ca)
 
 ## Note
